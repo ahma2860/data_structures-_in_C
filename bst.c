@@ -25,16 +25,6 @@ BSTNODE *bst_search(BSTNODE *root, char *key) {
 	    return bst_search(root->right, key);
 	  }
 
-//BSTNODE *curr=root;
-//while(curr!=NULL && strncmp(curr->data.name,key,20)!=0){
-//	  	  if (root==NULL) return NULL;
-//	  	  else if (val == root->data) return root;
-//	  	  else if (val < root->data) {
-//	  		  return recursive_search(root->left, val);
-//	  	  } else {
-//	  		  return recursive_search(root->right, val);
-//	  	  }
-}
 
 
 void bst_insert(BSTNODE **rootp, RECORD data) {
